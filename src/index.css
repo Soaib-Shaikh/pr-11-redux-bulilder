@@ -1,0 +1,144 @@
+/* ===============================
+   CYBER THEME (LIGHT VERSION)
+   =============================== */
+
+body {
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(circle at top, #16222a, #1f2b34);
+  color: #bfffff;
+  font-family: 'Oxanium', cursive;
+  height: 100vh;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+  background: linear-gradient(90deg, #0f1c24, #1f2b34) !important;
+  border-bottom: 1px solid #4dffff;
+  box-shadow: 0 0 12px #4dffff70;
+}
+
+.navbar-brand {
+  color: #bfffff !important;
+  text-shadow: 0 0 8px #4dffff;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #bfffff !important;
+  margin-left: 15px;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  text-shadow: 0 0 8px #4dffff;
+}
+
+.nav-link.active {
+  border-bottom: 2px solid #4dffff;
+}
+
+/* ===== CARD ===== */
+.card {
+  background: rgba(15, 28, 36, 0.9);
+  border: 1px solid #4dffff;
+  box-shadow: 0 0 18px #4dffff50;
+  border-radius: 16px;
+  
+}
+
+/* ===== CARD HEADER ===== */
+.card-header {
+  background: linear-gradient(90deg, #4dffff, #66e0ff) !important;
+  color: #0f1c24 !important;
+  text-shadow: 0 0 4px #ffffff;
+  font-weight: bold;
+}
+
+/* ===== INPUT ===== */
+.form-control {
+  background: rgba(255, 255, 255, 0.08) !important;
+  border: 1px solid #4dffff !important;
+  color: #eaffff !important;
+}
+
+.form-control::placeholder {
+  color: #a6ffff;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 10px #4dffff;
+  border-color: #4dffff;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+/* ===== BUTTON ===== */
+.btn-primary,
+.btn-warning {
+  background: transparent !important;
+  border: 1px solid #4dffff !important;
+  color: #bfffff !important;
+  letter-spacing: 2px;
+  box-shadow: 0 0 8px #4dffff60;
+  transition: 0.3s;
+}
+
+.btn-primary:hover,
+.btn-warning:hover {
+  background: #4dffff !important;
+  color: #0f1c24 !important;
+  box-shadow: 0 0 18px #4dffff;
+}
+
+/* ===== TABLE ===== */
+.table {
+  color: #eaffff;
+}
+
+.table thead {
+  background: #4dffff;
+  color: #0f1c24;
+}
+
+.table tbody tr:hover {
+  background: rgba(77, 255, 255, 0.12);
+}
+
+/* ===== ACTION BUTTONS ===== */
+.btn-outline-warning {
+  background: transparent;
+  border: 1px solid #ffdd66;
+  color: #ffdd66;
+  box-shadow: 0 0 6px #ffdd6650;
+}
+
+.btn-outline-warning:hover {
+  background: #ffdd66;
+  color: #0f1c24;
+}
+
+.btn-outline-danger {
+  background: transparent;
+  border: 1px solid #ff6b6b;
+  color: #ff6b6b;
+  box-shadow: 0 0 6px #ff6b6b50;
+}
+
+.btn-outline-danger:hover {
+  background: #ff6b6b;
+  color: #ffffff;
+}
+
+/* ===== SCROLLBAR ===== */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f1c24;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4dffff;
+  border-radius: 10px;
+}
