@@ -120,7 +120,7 @@ redux-user-crud/
 ### Step 1: Clone/Download the Project
 ```bash
 # If cloning from Git
-git clone <repository-url>
+git clone <https://github.com/Soaib-Shaikh/pr-11-redux-bulilder.git>
 cd redux-user-crud
 ```
 
